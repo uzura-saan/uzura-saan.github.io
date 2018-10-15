@@ -1,0 +1,26 @@
+/* css */
+
+body {
+  font-size: 55px;
+  background-color: #ffee44;
+}
+
+.main {
+  height: 600px;
+  background-image: url("file:///Users/uzura_saan/Desktop/Hinagata-Basic/img/background.jpg");
+  /* background-image: url("./img/background.jpg"); */
+  background-size: cover;
+}
+
+h1 {
+  font-size: 130px;
+}
+
+@media (max-width: 800px) {
+  body {
+    font-size: 33px;
+  }
+  h1 {
+    font-size: 80px;
+  }
+}
