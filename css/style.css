@@ -1,26 +1,95 @@
 /* css */
 
 body {
-  font-size: 55px;
-  background-color: lightsalmon;
+  font-size: 16px;
+  color: #444;
+  /* background-color: lightsalmon; */
+}
+
+div {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+}
+
+a:hover {
+  color: #999;
+}
+
+.fas {
+  margin-right: 7px;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  width: 810px;
+  margin: 0 auto;
+
+  /* background-color: #eee; */
+}
+
+.header {
+  height: 75px;
+  padding: 10px;
+  border-bottom: 1px solid #aaa;
+}
+
+.header h1 {
+  font-size: 28px;
+  line-height: 55px;
 }
 
 .main {
-  height: 600px;
+  padding: 10px;
   /* background-image: url("file:///Users/uzura_saan/Desktop/Hinagata-Basic/img/background.jpg"); */
   background-image: url("./img/background.jpg");
   background-size: cover;
 }
 
-h1 {
-  font-size: 130px;
+.work-wrapper {
+  width: 810px;
+  margin: 0 auto;
+  /* background-color: #aac; */
+}
+
+.work {
+  width: 400px;
+  /* border: 1px solid #444; */
+  margin-bottom: 22px;
+  float: left;
+}
+
+.work p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.work-title {
+  margin: 30px 0 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #aaa;
+}
+
+.work-title a {
+  font-size: 26px;
+}
+
+.left {
+  margin-right: 10px;
+}
+
+.footer {
+  height: 40px;
+  padding: 10px;
+  border-top: 1px solid #aaa;
 }
 
 @media (max-width: 800px) {
-  body {
-    font-size: 33px;
-  }
-  h1 {
-    font-size: 80px;
-  }
+
 }
