@@ -19,12 +19,9 @@ a:hover {
   color: #999;
 }
 
-.fas {
-  margin-right: 7px;
-}
-
 .header-title .fas {
-  color: orange;
+  margin-right: 10px;
+  color: skyblue;
 }
 
 .clear {
@@ -45,7 +42,7 @@ a:hover {
 }
 
 .header h1 {
-  font-size: 28px;
+  font-size: 30px;
   line-height: 55px;
 }
 
@@ -81,7 +78,7 @@ a:hover {
 }
 
 .work-title a {
-  font-size: 26px;
+  font-size: 28px;
 }
 
 .left {
@@ -89,9 +86,31 @@ a:hover {
 }
 
 .footer {
-  height: 40px;
+  font-size: 26px;
+  height: 55px;
   padding: 10px;
   border-top: 1px solid #aaa;
+}
+
+.footer .fas {
+  color: orange;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
+}
+
+#back-to-top {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#back-to-top:hover {
+  opacity: 1;
 }
 
 @media (max-width: 800px) {
