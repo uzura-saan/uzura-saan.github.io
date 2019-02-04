@@ -23,6 +23,10 @@ a:hover {
   margin-right: 7px;
 }
 
+.header-title .fas {
+  color: orange;
+}
+
 .clear {
   clear: both;
 }
