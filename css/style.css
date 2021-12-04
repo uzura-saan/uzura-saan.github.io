@@ -29,22 +29,33 @@ a:hover {
 }
 
 .container {
-  width: 810px;
+  width: 820px;
   margin: 0 auto;
 
   /* background-color: #eee; */
 }
 
 .header {
-  height: 75px;
+  height: 130px;
   padding: 10px;
   border-bottom: 1px solid #aaa;
+  text-align: center;
 }
 
 .header h1 {
-  font-size: 30px;
-  line-height: 55px;
+  font-size: 40px;
+  line-height: 60px;
 }
+
+.header h2 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.donate {
+  color: #77b;
+}
+
 
 .main {
   padding: 10px;
@@ -113,6 +124,6 @@ a:hover {
   opacity: 1;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
 
 }
