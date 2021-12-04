@@ -36,20 +36,20 @@ a:hover {
 }
 
 .header {
+  background-color: lightsalmon;
   height: 115px;
   padding: 10px;
-  border-bottom: 1px solid #aaa;
   text-align: center;
 }
 
 .header h1 {
-  font-size: 26px;
-  line-height: 30px;
+  font-size: 34px;
+  line-height: 44px;
 }
 
 .header h2 {
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 24px;
+  line-height: 34px;
 }
 
 .donate {
