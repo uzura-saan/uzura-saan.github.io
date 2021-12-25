@@ -53,7 +53,7 @@ a:hover {
 }
 
 .donate {
-  color: #77b;
+  color: olivedrab;
 }
 
 
@@ -105,10 +105,12 @@ a:hover {
 
 .footer .fas {
   color: orange;
+  margin-right: 15px;
 }
 
 .footer-left {
   float: left;
+  margin-left: 15px;
 }
 
 .footer-right {
