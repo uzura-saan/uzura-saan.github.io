@@ -6,9 +6,9 @@ body {
   padding-bottom: 20px;
   font-size: 16px;
   /* background: skyblue; */
-  background: #d6d6d6;
+  background: #fff;
   font-family: Verdana, sans-serif;
-  color: #444;
+  color: #888;
 }
 
 .container {
@@ -22,19 +22,19 @@ a {
 }
 
 a:link {
-  color: #444;
+  color: #888;
 }
 
 a:visited {
-  color: #444;
+  color: #888;
 }
 
 a:hover {
-  color: #666;
+  color: #aaa;
 }
 
 a:active {
-  color: #666;
+  color: #aaa;
 }
 
 p, h1, h2, h3 {
@@ -45,7 +45,7 @@ p, h1, h2, h3 {
 /* ----- header ----- */
 
 header {
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #888;
 }
 
 #header_content_left {
@@ -99,7 +99,7 @@ header {
 /* ----- footer ----- */
 
 footer {
-  border-top: 1px solid #444;
+  border-top: 1px solid #888;
 }
 
 .footer_links {
