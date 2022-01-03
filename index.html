@@ -1,101 +1,65 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <title>うずら工房のWebアプリ</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  </head>
-  <body>
-    <div class="header">
-      <div class="container">
-        <div class="header-title">
-          <h1><i class="fas fa-cube"></i>うずら工房のWebアプリ</h1>
-          <h2>うずら工房は皆さまからのコーヒー代によってゆるーく運営されています♪</h2>
-          <h2>募金先 PayPay ID: <span class="donate">uzura_and_co</span></h2>
-        </div>
-      </div>
+<head>
+  <title>Uzura Koubou</title>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-type" content="text/html;charset=utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="./img/favicon.ico">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style_index.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div id="header_content_left">
+      <h1>uzura-saan.github.io</h1>
+      <p>K.Iwasa's software house "Uzura Koubou"</p>
+      <p>HTML, CSS, JavaScript, Rails web application, etc</p>
     </div>
-    <div class="main">
-      <div class="container">
-        <div class="works">
-          <!--  -->
-          <div class="work-wrapper">
-            <div class="work-title">
-              <a href="https://cm9s.herokuapp.com">9S クラウドメモ</a>
-            </div>
-            <div class="clear"></div>
-            <div class="work left">
-              <a href="https://cm9s.herokuapp.com"><img src="./img/cm9s_n.png"></a>
-            </div>
-            <div class="work">
-              <p>'究極'のシンプル操作。あらゆるデバイスで共用できるWebベースのメモアプリ</p>
-            </div>
-            <div class="clear"></div>
-          </div>
-          <!--  -->
-          <div class="work-wrapper">
-            <div class="work-title">
-              <a href="https://rocky-cove-81429.herokuapp.com/">Webルーペ</a>
-            </div>
-            <div class="clear"></div>
-            <div class="work left">
-              <a href="https://rocky-cove-81429.herokuapp.com/"><img src="./img/web_loupe.png"></a>
-            </div>
-            <div class="work">
-              <p>漢字の細部を確認するためのアプリ。ワンクリックで「超大きめ」フォントに変換。</p>
-            </div>
-            <div class="clear"></div>
-          </div>
-          <!--  -->
-          <div class="work-wrapper">
-            <div class="work-title">
-              <a href="https://attouteki-ai.herokuapp.com/">圧倒的次世代AI</a>
-            </div>
-            <div class="clear"></div>
-            <div class="work left">
-              <a href="https://attouteki-ai.herokuapp.com/"><img src="./img/attouteki_ai.png"></a>
-            </div>
-            <div class="work">
-              <p>投げやりな偽AIが変な文章を作って返してくれるだけの暇つぶしアプリ。ツイッターで手軽にシェア。</p>
-            </div>
-            <div class="clear"></div>
-          </div>
-          <!--  -->
-          <div class="work-wrapper">
-            <div class="work-title">
-              <a href="https://rocky-cove-81429.herokuapp.com/">twishca</a>
-            </div>
-            <div class="clear"></div>
-            <div class="work left">
-              <a href="https://twishca.herokuapp.com/"><img src="./img/twishca.png"></a>
-            </div>
-            <div class="work">
-              <p>入力した文字から簡単に画像ツイートを作成/投稿できるアプリ。</p>
-              <br>
-              <p>ちょっとしたツイートにアクセントをつけて目立たせたい時に便利。</p>
-            </div>
-            <div class="clear"></div>
-          </div>
-          <!--  -->
-        </div>
+    <div style="clear:left;"></div>
+  </div>
+</header>
+<main>
+  <div class="container">
+    <nav>
+      <div class="menu upper left">
+        <p>
+          <a href="./birds/">9S CLOUD MEMO</a><br>
+          <a href="./birds/"><img src="./img/cm9s_n.png" width="350" border="0" alt="9S CLOUD MEMO"></a>
+        </p>
       </div>
-    </div>
-    <div class="footer">
-      <div class="container">
-        <div class="footer-left">
-          <p>@ToriSaanP</p>
-        </div>
-        <div class="footer-right">
-          <i  id="back-to-top" class="fas fa-arrow-alt-circle-up"></i>
-        </div>
-        <div class="clear"></div>
+      <div class="menu upper right">
+        <p>
+          <a href="./densi/">Web Loupe</a><br>
+          <a href="./densi/"><img src="./img/web_loupe.png" width="350" border="0" alt="Web Loupe"></a>
+        </p>
       </div>
+      <div style="clear:left;"></div>
+      <div class="menu lower left">
+        <p>
+          <a href="./travel/">attouteki-ai</a><br>
+          <a href="./travel/"><img src="./img/attouteki_ai.png" width="350" border="0" alt="圧倒的次世代AI"></a>
+        </p>
+      </div>
+      <div class="menu lower right">
+        <p>
+          <a href="./ji3bnb/">twishca</a><br>
+          <a href="./ji3bnb/"><img src="./img/twishca.png" width="350" border="0" alt="twishca"></a>
+        </p>
+      </div>
+      <div style="clear:left;"></div>
+    </nav>
+  </div>
+</main>
+<footer>
+  <div class="container">
+    <div id="footer_content_01">
+      <p>Thanks donation >> PayPay ID: uzura_and_co</p>
+      <p class="footer_links"><a href="https://www.youtube.com/user/iksvb/"><i class="fa fa-youtube"></i></a></p>
     </div>
-  <script src="./script/script.js"></script>
-  </body>
+    <div style="clear:left;"></div>
+  </div>
+</footer>
+</body>
 </html>

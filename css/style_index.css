@@ -1,0 +1,121 @@
+﻿
+/* ----- common ----- */
+
+body {
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 16px;
+  background: skyblue;
+  font-family: Verdana, sans-serif;
+  color: #666;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #666;
+}
+
+a:visited {
+  color: #666;
+}
+
+a:hover {
+  color: #999;
+}
+
+a:active {
+  color: #666;
+}
+
+p, h1, h2, h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* ----- header ----- */
+
+header {
+  border-bottom: 1px solid #666;
+}
+
+#header_content_left {
+  width: 565px;
+  height: 120px;
+  float: left;
+  padding-top: 30px;
+  padding-left: 15px;
+}
+
+#header_content_left h1 {
+  font-size: 40px;
+  display: inline-block;
+  margin-bottom: 7px;
+}
+
+/* ----- main ----- */
+
+.menu {
+  width: 350px;
+  font-size: 16px;
+  font-weight: bold;
+  float: left;
+}
+
+.left {
+  padding-left: 15px;
+}
+
+.right {
+  padding-left: 10px;
+}
+
+.upper {
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+
+.lower {
+  margin-bottom: 30px;
+}
+
+.menu img {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.menu img:hover {
+  opacity: 0.9;
+}
+
+/* ----- footer ----- */
+
+footer {
+  border-top: 1px solid #666;
+}
+
+.footer_links {
+ font-size: 24px;
+}
+
+#footer_content_01 {
+  width: 785px;
+  height: 85px;
+  padding-top: 15px;
+  padding-left: 15px;
+  float: left;
+}
+
+@media screen and ( max-width:799px )
+{
+  /* ----- main ----- */
+  #wide100 {
+  }
+}
