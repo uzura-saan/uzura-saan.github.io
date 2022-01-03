@@ -5,9 +5,10 @@ body {
   margin: 0;
   padding-bottom: 20px;
   font-size: 16px;
-  background: skyblue;
+  /* background: skyblue; */
+  background: #d6d6d6;
   font-family: Verdana, sans-serif;
-  color: #666;
+  color: #444;
 }
 
 .container {
@@ -21,15 +22,15 @@ a {
 }
 
 a:link {
-  color: #666;
+  color: #444;
 }
 
 a:visited {
-  color: #666;
+  color: #444;
 }
 
 a:hover {
-  color: #999;
+  color: #666;
 }
 
 a:active {
@@ -44,7 +45,7 @@ p, h1, h2, h3 {
 /* ----- header ----- */
 
 header {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #444;
 }
 
 #header_content_left {
@@ -98,7 +99,7 @@ header {
 /* ----- footer ----- */
 
 footer {
-  border-top: 1px solid #666;
+  border-top: 1px solid #444;
 }
 
 .footer_links {
