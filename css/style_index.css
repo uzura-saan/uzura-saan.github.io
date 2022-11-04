@@ -64,6 +64,12 @@ header {
 
 /* ----- main ----- */
 
+.description {
+  font-size: 16px;
+  padding-left: 15px;
+  margin-top: 30px;
+}
+
 .menu {
   width: 350px;
   font-size: 16px;
