@@ -48,6 +48,10 @@ header {
   border-bottom: 1px solid #888;
 }
 
+.header_links {
+ font-size: 24px;
+}
+
 #header_content_left {
   width: 565px;
   height: 120px;
@@ -110,18 +114,19 @@ header {
 
 footer {
   border-top: 1px solid #888;
-}
-
-.footer_links {
- font-size: 24px;
+  width: 100%;
 }
 
 #footer_content_01 {
   width: 785px;
-  height: 185px;
+  height: 180px;
   padding-top: 20px;
   padding-left: 15px;
   float: left;
+}
+
+footer img {
+  margin-top: 10px;
 }
 
 @media screen and ( max-width:799px )
